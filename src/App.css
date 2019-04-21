@@ -71,3 +71,8 @@
 		transform: scale(1.0);
 	}
 }
+@media all and (max-width: 768px){
+	.city-name{
+		margin-bottom: 10px 
+	}
+}

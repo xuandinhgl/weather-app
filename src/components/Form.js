@@ -25,7 +25,6 @@ class Form extends Component {
             city: this.formatCityName(event.target.value)
         });
     }
-
     
     formatCityName = alias => {
         var str = alias;
@@ -48,10 +47,10 @@ class Form extends Component {
             <form onSubmit={this.getWeather}>
                 <div className="form-group">
                     <div className="row">
-                        <div className="col-md-9">
+                        <div className="col-sm-9 city-name">
                             <input className="form-control" placeholder="Nhập tên thành phố" onChange={this.onChangeCity} />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-sm-3">
                             <button className="btn btn-block btn-primary">Xem</button>
                         </div>
                     </div>
