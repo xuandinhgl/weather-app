@@ -47,10 +47,10 @@ class Form extends Component {
             <form onSubmit={this.getWeather}>
                 <div className="form-group">
                     <div className="row">
-                        <div className="col-sm-9 city-name">
+                        <div className="col-9 city-name">
                             <input className="form-control" placeholder="Nhập tên thành phố" onChange={this.onChangeCity} />
                         </div>
-                        <div className="col-sm-3">
+                        <div className="col-3">
                             <button className="btn btn-block btn-primary">Xem</button>
                         </div>
                     </div>
